@@ -9,7 +9,7 @@ The aim of this project is to extract text information from business cards using
 - Implement text extraction using the EasyOCR library and save the results to a CSV file
 - Optimize the OCR engine for improved accuracy and efficiency 
 
-Deliverables:
+<h1>Deliverables:</h1>
 
 - Python script for extracting text from business cards using the EasyOCR library
 - Cleaned and preprocessed business card images
