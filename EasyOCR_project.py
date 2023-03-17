@@ -10,9 +10,9 @@ from mysql.connector import Error
 # Connect to MySQL database
 mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="root",
-    database="business_cards")
+    user="username",
+    password="password",
+    database="database name")
 
 # Create a cursor object to execute SQL queries
 mycursor = mydb.cursor()
