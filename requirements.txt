@@ -1,5 +1,6 @@
 easyocr==1.6.2
-mysql_connector_repackaged==0.3.1
+mysql_connector_repackaged==0.3.1 
+mysql-connector-python==8.0.32
 numpy==1.24.2
 opencv_python_headless==4.5.4.60
 pandas==1.5.3
