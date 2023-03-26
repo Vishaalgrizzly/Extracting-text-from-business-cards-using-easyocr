@@ -5,14 +5,13 @@ import numpy as np
 import easyocr
 import mysql.connector
 import pandas as pd
-from mysql.connector import Error
 
 # Connect to MySQL database
 mydb = mysql.connector.connect(
     host="localhost",
-    user="username",
-    password="password",
-    database="database name")
+    user="root",
+    password="root",
+    database="business_cards")
 
 # Create a cursor object to execute SQL queries
 mycursor = mydb.cursor()
