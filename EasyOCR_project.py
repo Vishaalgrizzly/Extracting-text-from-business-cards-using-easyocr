@@ -5,6 +5,7 @@ import numpy as np
 import easyocr
 import mysql.connector
 import pandas as pd
+from mysql.connector import Error
 
 # Connect to MySQL database
 mydb = mysql.connector.connect(
